@@ -51,7 +51,7 @@ public class LoginvalidTest {
     // 5 | type | name=username | jonathansiburian__
     driver.findElement(By.name("username")).sendKeys("jonathansiburian__");
     // 6 | type | name=password | Jonathan123456
-    driver.findElement(By.name("password")).sendKeys("Jonathan123456");
+    driver.findElement(By.name("password")).sendKeys("Dirahasiakan");
     // 7 | click | css=#loginForm > .x78zum5 | 
     driver.findElement(By.cssSelector("#loginForm > .x78zum5")).click();
     // 8 | click | css=.\_acan > .x9f619 | 
